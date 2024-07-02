@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://192.168.32.228:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
 
@@ -21,11 +21,11 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: ds_project
+      database: wings
       
 logging:
   file:
-    name: C:\Users\alaaa\Desktop\ds_project\logger.log    
+    name: C:\Users\alaaa\Desktop\wings\logger.log    
     
 microservice:
   payment-service:
