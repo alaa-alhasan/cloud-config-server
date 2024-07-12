@@ -38,3 +38,8 @@ microservice:
     endpoints:
       endpoint:
         uri: http://FLIGHT-SERVICE/flight/number
+microservice:
+  offer-service:
+    endpoints:
+      endpoint:
+        uri: http://OFFER-SERVICE/offer/reservation-offers
