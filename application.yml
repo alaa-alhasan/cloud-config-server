@@ -25,7 +25,7 @@ spring:
       
 logging:
   file:
-    name: C:\Users\alaaa\Desktop\wings\logger.log    
+    name: C:\Users\alaaa\Desktop\wings_back\wings\logger.log    
     
 microservice:
   payment-service:
