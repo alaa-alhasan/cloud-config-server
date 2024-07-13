@@ -32,13 +32,10 @@ microservice:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/do
-  
-microservice:
   flight-service:
     endpoints:
       endpoint:
         uri: http://FLIGHT-SERVICE/flight/number
-microservice:
   offer-service:
     endpoints:
       endpoint:
